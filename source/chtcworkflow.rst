@@ -76,7 +76,7 @@ A simple DAG spliced input file is ::
 
 
 **Gluster** :
-Gluster is a file share maintained by CHTC, and used for files or software that are too large for HTCondor file transfer. See `<http://chtc.cs.wisc.edu/file-avail-gluster.shtml>`_ for explanation.
+Gluster is a file share maintained by CHTC, and used for files or software that are too large for HTCondor file transfer. See `<http://chtc.cs.wisc.edu/file-avail-gluster.shtml>`_ for explanation. Note: This is an attribute unique only to CHTC and not generally available.
 
 
 *In progress*
@@ -172,6 +172,9 @@ The following are samples of the two submit files. Users should replace variable
         stream_output=True
 
         queue
+
+
+.. note:: The line *requirements = (HasGluster == true)* is a CHTC-only attribute and not generally available. 
 
 
 Executing Scripts
