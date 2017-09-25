@@ -77,9 +77,7 @@ A simple DAG spliced input file is ::
 
 **Gluster** :
 Gluster is a file share maintained by CHTC, and used for files or software that are too large for HTCondor file transfer. See `<http://chtc.cs.wisc.edu/file-avail-gluster.shtml>`_ for explanation. Note: This is an attribute unique only to CHTC and not generally available.
-
-
-*In progress*
+*As of September 25, 2017, Gluster is no longer used for the methodology described in this protocol.*
 
 
 ---------------
