@@ -151,9 +151,10 @@ Now you can view the 3D mandible::
 	 camlight
 
 .. figure:: images/M227matlabrender.png
-	:scale: 50%
+	:scale: 40%
 
 	3D mandible model rendered in MATLAB using a color matrix value of [0.75 0.75 0.70].
+
 
 Rotate the mandible to inspect any regions requiring further enhancement 
 
